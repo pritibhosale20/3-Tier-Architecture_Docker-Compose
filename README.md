@@ -18,19 +18,24 @@ Ensure you have the following installed on your system before running this proje
 
 # Repository Structure
 📂 ThreeTierArchitecture
+
 ├── 📂 apptier
+
      ├── Dockerfile
      ├── 📂 myphpcode
           ├── index.php
+          
 ├── 📂 dbtier
      ├── Dockerfile
      ├── init.sh
      ├── init.sql  
+     
 ├── 📂 webtier
      ├── Dockerfile
      ├── default.conf
      ├── 📂 myhtmlcode
-          ├── index.html   
+          ├── index.html  
+          
 ├── docker-compose.yml          
      
 # Components
