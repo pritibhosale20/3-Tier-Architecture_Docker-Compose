@@ -23,7 +23,7 @@ Follow these steps to set up and run the project:
 Clone the repository
 ```bash
 git clone https://github.com/pritibhosale20/3-Tier-Architecture_Docker-Compose.git
-cd three-tier-architecture
+cd 3-Tier-Architecture_Docker-Compose
 ```
 Start the containers
 ```
