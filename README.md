@@ -14,7 +14,28 @@ A MySQL database used for persistent data storage.
 # Prerequisites
 Ensure you have the following installed on your system before running this project:
 1. Docker 
-2. Docker Compose 
+2. Docker Compose
+
+Getting Started
+
+Follow these steps to set up and run the project:
+
+Clone the repository
+```bash
+git clone https://github.com/your-repo/three-tier-architecture.git
+cd three-tier-architecture
+```
+Start the containers
+```
+docker-compose up -d
+```
+Access the application
+
+Open your browser and go to: http://localhost
+
+Stop the containers (when finished)
+
+```docker-compose down```
      
 # Components
 frontend/ → Contains Nginx configuration and static files.
