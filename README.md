@@ -15,28 +15,6 @@ A MySQL database used for persistent data storage.
 Ensure you have the following installed on your system before running this project:
 1. Docker 
 2. Docker Compose 
-
-# Repository Structure
-📂 ThreeTierArchitecture
-
-├── 📂 apptier
-
-     ├── Dockerfile
-     ├── 📂 myphpcode
-          ├── index.php
-          
-├── 📂 dbtier
-     ├── Dockerfile
-     ├── init.sh
-     ├── init.sql  
-     
-├── 📂 webtier
-     ├── Dockerfile
-     ├── default.conf
-     ├── 📂 myhtmlcode
-          ├── index.html  
-          
-├── docker-compose.yml          
      
 # Components
 frontend/ → Contains Nginx configuration and static files.
