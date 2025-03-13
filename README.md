@@ -39,6 +39,9 @@ Stop the containers (when finished)
      
 # Components
 frontend/ → Contains Nginx configuration and static files.
+
 backend/ → Contains PHP application logic and Dockerfile.
+
 database/ → Contains SQL initialization scripts.
+
 docker-compose.yml → Defines the services and networking.
