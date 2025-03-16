@@ -31,11 +31,7 @@ docker-compose up -d
 ```
 Access the application
 
-Open your browser and go to: http://localhost
-
-Stop the containers (when finished)
-
-```docker-compose down```
+Open your browser and enter public-ip of server
      
 # Components
 frontend/ → Contains Nginx configuration and static files.
