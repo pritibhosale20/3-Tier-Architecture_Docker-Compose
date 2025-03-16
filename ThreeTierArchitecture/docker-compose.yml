@@ -2,7 +2,7 @@ version: '3.9'
 services:
        web:
           build: 
-            context: ./webtier
+            context: ./web
           ports:
             - 80:80
           volumes:
@@ -12,6 +12,7 @@ services:
        app:
         build:
          context: ./apptier
+        container_name: app
         ports:
          - 9000
         volumes:
@@ -22,7 +23,7 @@ services:
 
        db:
         build: 
-          context: ./dbtier
+          context: ./db
         ports:
          - 3306
         volumes:
